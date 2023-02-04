@@ -1,46 +1,52 @@
 *,
 *::after,
 *::before {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 .main {
-    width: 35rem;
-    height: 35rem;
-    background-color: #000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 35rem;
+  height: 35rem;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .numtext {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .one-one {
-    position: absolute;
-    z-index: 1;
-    height: 2rem;
-    width: 4rem;
-    background-color: aliceblue;
-    transform: rotate(-50deg);
-    top: 3%;
-    left: 40%;
-    border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  height: 2rem;
+  width: 4rem;
+  background-color: aliceblue;
+  transform: rotate(-50deg);
+  top: 3%;
+  left: 40%;
+  border-radius: 5px;
 }
 
 .one-two {
-    height: 8rem;
-    width: 2rem;
-    background-color: aliceblue;
-    position: absolute;
-    z-index: 2;
-    box-shadow: 0 0 3px #000;
-    border-radius: 5px;
+  height: 8rem;
+  width: 2rem;
+  background-color: aliceblue;
+  position: absolute;
+  z-index: 2;
+  /* box-shadow: 0 0 3px #000; */
+  border-radius: 5px;
 }
 
-
+.two-one,
+.two-two {
+  height: 7.5rem;
+  width: 7.5rem;
+  border: 30px solid aliceblue;
+  border-radius: 50%;
+}
