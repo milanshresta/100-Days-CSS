@@ -9,10 +9,19 @@
 .main {
   width: 35rem;
   height: 35rem;
-  background-color: #000;
+  font-family: 'Courier New', 'Courier', sans-serif;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to top right, #0222A0 0%, #61fff0 100%);
+}
+
+.content {
+  position: relative;
+  top: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
 }
 
@@ -23,13 +32,13 @@
 
 .one-one {
   position: absolute;
-  z-index: 1;
+  z-index: 5;
   height: 2rem;
   width: 4rem;
   background-color: aliceblue;
   transform: rotate(-50deg);
-  top: 3%;
-  left: 40%;
+  top: 15%;
+  left: 19.5%;
   border-radius: 5px;
 }
 
@@ -38,15 +47,34 @@
   width: 2rem;
   background-color: aliceblue;
   position: absolute;
-  z-index: 2;
-  /* box-shadow: 0 0 3px #000; */
+  z-index: 6;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
 
 .two-one,
 .two-two {
-  height: 7.5rem;
-  width: 7.5rem;
+  height: 8rem;
+  width: 8rem;
   border: 30px solid aliceblue;
   border-radius: 50%;
+}
+
+.zero {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+  left: 3%;
+}
+
+.two-one {
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+.two-two {
+    z-index: 2;
+    position: relative;
+    right: 10%;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
 }
