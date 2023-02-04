@@ -16,5 +16,31 @@
     transform: translate(-50%, -50%);
 }
 
+.numtext {
+    display: flex;
+    justify-content: center;
+}
+
+.one-one {
+    position: absolute;
+    z-index: 1;
+    height: 2rem;
+    width: 4rem;
+    background-color: aliceblue;
+    transform: rotate(-50deg);
+    top: 3%;
+    left: 40%;
+    border-radius: 5px;
+}
+
+.one-two {
+    height: 8rem;
+    width: 2rem;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 3px #000;
+    border-radius: 5px;
+}
 
 
