@@ -9,19 +9,19 @@
 .main {
   width: 35rem;
   height: 35rem;
-  font-family: 'Courier New', 'Courier', sans-serif;
+  font-family: "Courier New", "Courier", sans-serif;
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(to top right, #0222A0 0%, #61fff0 100%);
+  background: linear-gradient(to top right, #0222a0 0%, #61fff0 100%);
 }
 
 .content {
   position: relative;
-  top: 50%;
-  left: 55%;
+  top: 40%;
+  left: 53%;
   transform: translate(-50%, -50%);
 }
 
@@ -68,13 +68,33 @@
 }
 
 .two-one {
-    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
-    z-index: 4;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  z-index: 4;
 }
 
 .two-two {
-    z-index: 2;
-    position: relative;
-    right: 10%;
-    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  position: relative;
+  right: 10%;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nomtext {
+  position: absolute;
+  top: 150%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 24px;
+}
+
+.day {
+    font-size: 108px;
+    font-weight: 600;
+}
+
+.csstxt {
+    font-size: 33px;
+    font-weight: 600;
 }
