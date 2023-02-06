@@ -5,3 +5,23 @@
     margin: 0;
     padding: 0;
 }
+
+.frame {
+    height: 30rem;
+    width: 30rem;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-circle {
+    width: 15rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
