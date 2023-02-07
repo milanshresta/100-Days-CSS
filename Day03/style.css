@@ -44,4 +44,15 @@
     width: auto;
     position: relative;
     bottom: 20%;
+    z-index: 2;
+}
+
+.pyramid {
+  width: 5rem;
+  height: 3rem;
+  background-color: rgb(158, 149, 167);
+  z-index: 10;
+  position: absolute;
+  top: 48%;
+  left: 40%;
 }
